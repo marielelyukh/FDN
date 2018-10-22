@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .logo {
+    background-color: #D6D6D6;
+    height: 70px;
+
+  }
+  .logo__img {
+    margin: 1.5vh 25vh
+  }
+  .social {
+    background-color: #282828;
+    height: 70px;
+
+  }
+  .social__icons {
+    margin: 25px;
+  }
+  .social__icon-one {
+    color: white;
+  }
+}
