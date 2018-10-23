@@ -1,2 +1,25 @@
-.home{
+.home {
+  .info-block {
+
+  }
+  .info-block__main {
+    background-color: #D6D6D6;
+    height: 826px;
+
+  }
+  .info-block__slider {
+    background-color: #282828;
+    height: 826px;
+  }
+  .info-block__around-us {
+    background-color: $blocks-color-one;
+    height: 420px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .info-block__main-title{
+  }
+  .info-block__video {
+
+  }
 }
