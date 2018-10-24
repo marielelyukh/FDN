@@ -38,19 +38,24 @@ html, body {
 
 .main-title {
   font-size: 20px;
-  color: $font-color;
+  color: $font-color-dark;
   font-weight: bold;
   font-family: Montserrat;
   //margin: 20px 0 0 20px;
 }
 
 .dark-text {
-  color: $font-color;
+  color: $font-color-dark;
   font-family: Montserrat;
-  font-size: 1.5vh;
-  font-weight: 600;
+  font-size: 1vh;
+  font-weight: 700;
 }
-
+.light-text {
+  color: $font-color-light;
+  font-family: Montserrat;
+  font-size: 1vh;
+  font-weight: 700;
+}
 .button {
   font-family: Montserrat;
   border: none;
@@ -64,39 +69,52 @@ html, body {
   cursor: pointer;
   transition-duration: 0.4s;
 }
+.divider {
+  background-color: $font-color-dark;
+  width: 50px;
+  height: 7px;
+  margin: 20px 0 20px 0;
+}
 .block-light {
   height: 293px;
   width: 293px;
+  padding: 30px;
   background-color: $blocks-color-base;
 }
 .block-dark {
   height: 293px;
   width: 293px;
+  padding: 30px;
   background-color: $blocks-color-base-second;
 }
 .block-light-medium {
   height: 293px;
   width: 586px;
+  padding: 30px;
   background-color: $blocks-color-base;
 }
 .block-dark-medium {
   height: 293px;
   width: 586px;
+  padding: 30px;
   background-color: $blocks-color-base-second;
 }
 .block-yellow {
   height: 293px;
   width: 293px;
+  padding: 30px;
   background-color: $blocks-color-bright;
 }
 .block-blue {
   height: 293px;
   width: 293px;
+  padding: 30px;
   background-color: $blocks-color-light;
 }
 .block-pink-medium {
   height: 293px;
   width: 586px;
+  padding: 30px;
   background-color: $blocks-color-pink;
 }
 
