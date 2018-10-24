@@ -16,7 +16,7 @@
     width: 293px;
   }
   .info-block__around-us-body {
-    background-color: $blocks-color-bright;
+    background-color: $blocks-color-yellow;
     padding: 30px;
     height: 293px;
     width: 586px;
@@ -31,7 +31,7 @@
     opacity: 0.9;
   }
   .info-block__video-body {
-    background-color: $blocks-color-light;
+    background-color: $blocks-color-blue;
     height: 293px;
     width: 293px;
     float: right;
@@ -41,21 +41,6 @@
     height: 293px;
     background-color: $blocks-color-base;
   }
-  .service {
-    width: 1172px;
-    height: 586px;
-    margin: 0 auto;
-  }
-  .contact-block {
-    width: 1172px;
-    margin: 0 auto;
-    //float: right;
-  }
-  .about-company {
-    width: 1172px;
-    margin: 0 auto;
-  }
-
   .contact-block__search-info {
     width: 586px;
     background-color: $blocks-color-base-dark;
