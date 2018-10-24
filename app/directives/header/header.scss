@@ -2,23 +2,30 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  .header__body {
+    width: 1172px;
+    margin: auto;
+  }
   .logo {
-    background-color: #D6D6D6;
-    height: 150px;
-
+    background-color: $blocks-color-base-second;
+    width: 879px;
+    height: 240px;
   }
   .logo__img {
-    margin: 1.2vh 25vh
+    padding: 20px 0 0 0;
   }
   .social {
-    background-color: #282828;
-    height: 150px;
-
+    background-color: $blocks-color-base-dark;
+    width: 293px;
+    height: 240px;
   }
   .social__icons {
-    margin: 25px;
+    float: right;
+    margin-top: 2vh;
+
   }
   .social__icon-one {
     color: white;
+    padding: 20px 0 0 50px;
   }
 }

@@ -1,25 +1,70 @@
 .home {
+  background-image: url(../../content/img/back.png);
+  //background-size: cover;
+  background-repeat: no-repeat;
   .info-block {
-
+    width: 1172px;
+    height: 586px;
+    margin: auto;
   }
   .info-block__main {
-    background-color: #D6D6D6;
-    height: 826px;
-
+    background-color: $blocks-color-base-second;
+    width: 879px;
   }
   .info-block__slider {
-    background-color: #282828;
-    height: 826px;
+    background-color: $blocks-color-base-dark;
+    width: 293px;
   }
-  .info-block__around-us {
-    background-color: $blocks-color-one;
-    height: 420px;
-    width: 600px;
+  .info-block__around-us-body {
+    background-color: $blocks-color-bright;
+    padding: 30px;
+    height: 293px;
+    width: 586px;
+    float: left;
+  }
+  .info-block__divider {
+    background-color: $font-color;
+    width: 50px;
+    height: 7px;
+    margin: 20px 0 20px 0;
+  }
+  .info-block__button {
+    background-color: $font-color;
+    color: $blocks-color-base;
+    margin: 40px 0 0 0;
+  }
+  .info-block__button:hover, .info-block__button:focus {
+    opacity: 0.9;
+  }
+  .info-block__video-body {
+    background-color: $blocks-color-light;
+    height: 293px;
+    width: 293px;
+    float: right;
+  }
+  .info-block__slider__body {
+    width: 293px;
+    height: 293px;
+    background-color: $blocks-color-base;
+  }
+  .service {
+    width: 1172px;
+    height: 586px;
     margin: 0 auto;
   }
-  .info-block__main-title{
+  .contact-block {
+    width: 1172px;
+    margin: 0 auto;
+    //float: right;
   }
-  .info-block__video {
+  .about-company {
+    width: 1172px;
+    margin: 0 auto;
+  }
 
+  .contact-block__search-info {
+    width: 586px;
+    background-color: $blocks-color-base-dark;
+    height: 293px;
   }
 }

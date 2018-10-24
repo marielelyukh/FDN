@@ -10,6 +10,7 @@
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Regular.ttf");
 }
+
 /*==========================================
 
 					Custom CSS
@@ -18,6 +19,7 @@
 * {
   box-sizing: border-box;
 }
+
 html, body {
   position: fixed;
   min-height: 100%;
@@ -29,13 +31,73 @@ html, body {
   padding: 0 !important;
   overflow: auto;
 }
-.main-title{
+.content{
+  width: 1172px;
+  margin: 0 auto;
+}
+
+.main-title {
   font-size: 20px;
-  color: black;
+  color: $font-color;
   font-weight: bold;
   font-family: Montserrat;
-  margin: 20px 0 0 20px;
+  //margin: 20px 0 0 20px;
+}
 
+.dark-text {
+  color: $font-color;
+  font-family: Montserrat;
+  font-size: 1.5vh;
+  font-weight: 600;
+}
+
+.button {
+  font-family: Montserrat;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.block-light {
+  height: 293px;
+  width: 293px;
+  background-color: $blocks-color-base;
+}
+.block-dark {
+  height: 293px;
+  width: 293px;
+  background-color: $blocks-color-base-second;
+}
+.block-light-medium {
+  height: 293px;
+  width: 586px;
+  background-color: $blocks-color-base;
+}
+.block-dark-medium {
+  height: 293px;
+  width: 586px;
+  background-color: $blocks-color-base-second;
+}
+.block-yellow {
+  height: 293px;
+  width: 293px;
+  background-color: $blocks-color-bright;
+}
+.block-blue {
+  height: 293px;
+  width: 293px;
+  background-color: $blocks-color-light;
+}
+.block-pink-medium {
+  height: 293px;
+  width: 586px;
+  background-color: $blocks-color-pink;
 }
 
 
