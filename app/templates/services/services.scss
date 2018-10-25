@@ -1,0 +1,67 @@
+.services{
+  .logo-content{
+    width: 1172px;
+    margin: 0 auto;
+  }
+  .logo-content__logo-space{
+    width: 879px;
+    height: 348px;
+    margin: auto;
+    background-color: $blocks-color-base-second;
+  }
+  .logo-content__menu-space{
+    width: 293px;
+    height: 348px;
+    margin: auto;
+    background-color: $blocks-color-base-dark;
+  }
+  .logo-content__button{
+    background-color: $blocks-color-base;
+    color: $font-color-dark;
+    margin: 200px 0 0 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .content__post-text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #76C4F4;
+    margin-top: 30px;
+  }
+  .content__post-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .content__input{
+    input{
+      height: 50px;
+      margin-top: 30px;
+      width: 100%;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $blocks-color-blue;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: $blocks-color-blue;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: $blocks-color-blue;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: $blocks-color-blue;
+    }
+  }
+  .content__sign-up{
+    color: $blocks-color-base;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+}

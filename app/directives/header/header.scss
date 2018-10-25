@@ -1,23 +1,24 @@
 .header {
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  //opacity: 0.5;
   .header__body {
     width: 1172px;
     margin: auto;
   }
   .logo {
-    background-color: $blocks-color-base-second;
+    //background-color: $blocks-color-base-second;
     width: 879px;
-    height: 240px;
+    //height: 240px;
   }
   .logo__img {
     padding: 20px 0 0 0;
   }
   .social {
-    background-color: $blocks-color-base-dark;
+    //background-color: $blocks-color-base-dark;
     width: 293px;
-    height: 240px;
+    //height: 240px;
   }
   .social__icons {
     float: right;
@@ -92,6 +93,7 @@
   .sidenav__contact-info .infoMail {
     color: $blocks-color-blue;
     font-size: 12px;
+    font-weight: 600;
     font-family: Montserrat;
     text-decoration: underline;
   }

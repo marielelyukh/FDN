@@ -15,6 +15,12 @@
                 controller: 'HomeCtrl',
                 controllerAs: 'vm'
             })
+            .state('services', {
+                url: '/services',
+                templateUrl: 'templates/services/services.html',
+                controller: 'ServiceCtrl',
+                controllerAs: 'vm'
+            })
     }
 })();
 

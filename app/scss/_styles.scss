@@ -181,6 +181,74 @@ html, body {
 .number-square img{
   margin: 20%;
 }
+.top-arrow{
+  position: relative;
+  &:before {
+    top: 0;
+    left: 50%;
+    border-bottom: 20px solid $blocks-color-base;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -20px;
+    transform: translateY(-50%);
+  }
+}
+.bottom-arrow{
+  position: relative;
+  &:before {
+    top: 100%;
+    left: 50%;
+    border-top: 20px solid $blocks-color-base;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -20px;
+    transform: translateY(-50%);
+  }
+}
+.left-arrow{
+  position: relative;
+  &:before {
+    top: 50%;
+    right: 100%;
+    border-right: 13px solid $blocks-color-base;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -10px;
+    transform: translateY(-50%);
+  }
+}
+.right-arrow{
+  position: relative;
+  &:before {
+    top: 50%;
+    left: 100%;
+    border-left: 20px solid $blocks-color-base;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -10px;
+    transform: translateY(-50%);
+  }
+}
 
 
 

@@ -9,7 +9,7 @@
             restrict: 'E',
             templateUrl: 'directives/header/header.html',
             scope: {
-
+                fhColorLogo: '@'
             },
             controller: 'HeaderCtrl',
             controllerAs: 'vm',

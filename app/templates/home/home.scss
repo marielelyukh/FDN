@@ -1,19 +1,23 @@
 .home {
-  //background-image: url(../../content/img/back.png);
-  //background-size: cover;
-  //background-repeat: no-repeat;
   .info-block {
     width: 1172px;
-    height: 586px;
     margin: auto;
   }
   .info-block__main {
     background-color: $blocks-color-base-second;
     width: 879px;
+    height: 826px;
+  }
+  .info-block__space-main{
+    height: 240px;
   }
   .info-block__slider {
     background-color: $blocks-color-base-dark;
     width: 293px;
+    height: 826px;
+  }
+  .info-block__space-slider{
+    height: 240px;
   }
   .info-block__around-us-body {
     background-color: $blocks-color-yellow;
@@ -87,4 +91,5 @@
     margin-top: 30px;
     cursor: pointer;
   }
+
 }
