@@ -41,9 +41,50 @@
     height: 293px;
     background-color: $blocks-color-base;
   }
-  .contact-block__search-info {
+  .info-block__search-info {
     width: 586px;
     background-color: $blocks-color-base-dark;
     height: 293px;
+  }
+  .content__news-text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #76C4F4;
+    margin-top: 30px;
+  }
+  .content__news-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .content__input{
+    input{
+      height: 50px;
+      margin-top: 30px;
+      width: 100%;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $blocks-color-blue;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: $blocks-color-blue;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: $blocks-color-blue;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: $blocks-color-blue;
+    }
+  }
+  .content__sign-up{
+    color: $blocks-color-base;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
   }
 }

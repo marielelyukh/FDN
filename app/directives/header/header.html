@@ -7,20 +7,84 @@
             <div class="social">
                 <div class="social__icons" layout="row" layout-align="space-between center">
                     <div class="social__icon-one">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f fa-2x"></i>
                     </div>
                     <div class="social__icon-one">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
                     </div>
                     <div class="social__icon-one">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-shopping-cart fa-2x"></i>
                     </div>
-                    <div class="social__icon-one">
-                        <i class="fas fa-bars"></i>
+                    <div class="social__icon-one fa-2x">
+                        <i ng-click="vm.openNav()" class="fas fa-bars"></i>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav__header-sdnv" layout="row" layout-align="space-around center">
+            <div>
+                NAVIGATION
+            </div>
+            <div>
+                <img src="content/img/close.png" ng-click="vm.closeNav()">
+            </div>
+        </div>
+        <div class="sidenav__list-sdnv">
+            <div class="sidenav__item">
+                Home
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item ">
+                <span class="accordion">Service</span>
+                <div class="sidenav__item-small">
+                    <md-divider></md-divider>
+                    <div class="small-item">General contracting</div>
+                    <div class="small-item">Project design and engineering</div>
+                    <div class="small-item">Capital improvements</div>
+                </div>
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                Our works
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                News & events
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                Work with us
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                F.A.Q
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                Contact us us
+            </div>
+            <md-divider></md-divider>
+            <div class="sidenav__item">
+                Shop
+            </div>
+            <md-divider></md-divider>
+        </div>
+        <div class="sidenav__contact-info">
+            <img src="content/img/map.png" ng-click="vm.closeNav()">
+            <div class="infoText mt-10">
+                Stylemixthemes USA, California 20 <br> Fix Avenue, 2365 California
+                <br><br><br>1 888 111 68 68<br><br> 6.00 - 18.00 sunday CLOSED
+            </div>
+            <div class="infoMail mt-10">
+                info@stylemixthemes.com
+            </div>
+        </div>
+        <div class="searchBlock">
+         <input type="text" placeholder="Search">
+        </div>
 
+
+    </div>
 </div>
