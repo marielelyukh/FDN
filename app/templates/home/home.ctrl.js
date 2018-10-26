@@ -6,6 +6,13 @@
     /* @ngInject */
     function HomeCtrl() {
         var vm = this;
-        console.log('kekek')
+        console.log('kekek');
+        $('.slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            infinite: true,
+            cssEase: 'linear'
+        });
     }
 })();

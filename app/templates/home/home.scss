@@ -8,7 +8,7 @@
     width: 879px;
     height: 826px;
   }
-  .info-block__space-main{
+  .info-block__space-main {
     height: 240px;
   }
   .info-block__slider {
@@ -16,7 +16,7 @@
     width: 293px;
     height: 826px;
   }
-  .info-block__space-slider{
+  .info-block__space-slider {
     height: 240px;
   }
   .info-block__around-us-body {
@@ -61,8 +61,8 @@
     color: #ffffff;
     margin-top: 10px;
   }
-  .content__input{
-    input{
+  .content__input {
+    input {
       height: 50px;
       margin-top: 30px;
       width: 100%;
@@ -80,7 +80,7 @@
       color: $blocks-color-blue;
     }
   }
-  .content__sign-up{
+  .content__sign-up {
     color: $blocks-color-base;
     text-transform: uppercase;
     font-size: 16px;
@@ -88,5 +88,10 @@
     margin-top: 30px;
     cursor: pointer;
   }
-
+  .slider {
+  img{
+    width: 20%;
+    height: 20%;
+  }
+  }
 }
