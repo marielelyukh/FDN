@@ -131,7 +131,10 @@
     }
 
   }
-  .accordion{
+  //NAVIGATION ENDS-------
+
+  //ACCORDION------
+  .accordion {
     transition: 0.4s;
     outline: none;
     border: 0;
@@ -154,14 +157,13 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
-  .sidenav__item-small .small-item{
+  .sidenav__item-small .small-item {
     margin: 20px 0 0px 20px;
   }
-  .sidenav__item-small .small-item:hover{
+  .sidenav__item-small .small-item:hover {
     color: $blocks-color-blue;
 
   }
-
   @media screen and (max-height: 450px) {
     .sidenav {
       padding-top: 15px;
@@ -169,5 +171,95 @@
     .sidenav a {
       font-size: 18px;
     }
+  }
+  //ACCORDION ENDS------
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+    &:before {
+      top: 0;
+      left: 85%;
+      border-bottom: 10px solid $blocks-color-base;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      margin-left: -20px;
+      transform: translateY(-50%);
+    }
+  }
+  .dropdown-content__block {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .dropdown-content .buttons{
+    margin: 20px 0 20px 0;
+  }
+  .dropdown-content__sum {
+    color: $font-color-dark;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .dropdown-content__block .count {
+    color: lightgrey;
+  }
+  .dropdown-content__title {
+    color: $font-color-light;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .dropdown-content__subtitle {
+    color: $font-color-dark;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .dropdown-content__checkout{
+    background-color: $blocks-color-yellow;
+    color: $font-color-dark;
+  }
+  .dropdown-content__cart{
+    color: $blocks-color-blue;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 20px;
+  }
+  .dropdown-content__divider {
+    margin: 20px 0 20px 0;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
   }
 }

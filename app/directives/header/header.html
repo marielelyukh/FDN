@@ -13,8 +13,47 @@
                     <div class="social__icon-one">
                         <i class="fab fa-twitter fa-2x"></i>
                     </div>
-                    <div class="social__icon-one">
-                        <i class="fas fa-shopping-cart fa-2x"></i>
+                    <!--<div class="social__icon-one">-->
+                        <!--<i class="fas fa-shopping-cart fa-2x"></i>-->
+                    <!--</div>-->
+                    <div class="dropdown" style="float:right;">
+                        <div class="social__icon-one">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <div layout="row" layout-align="start">
+                                <div class="dropdown-content__block">
+                                    <img class="logo__img" src="content/img/menu-square.png">
+                                </div>
+                                <div class="dropdown-content__block">
+                                    <p class="dropdown-content__title">Drill for real</p>
+                                    <p class="dropdown-content__subtitle">1 x £59.00</p>
+                                </div>
+                            </div>
+                            <div layout="row" layout-align="start">
+                                <div class="dropdown-content__block">
+                                    <img class="logo__img" src="content/img/menu-square.png">
+                                </div>
+                                <div class="dropdown-content__block">
+                                    <p class="dropdown-content__title">Drill Mrill Brill <span class="count">(2)</span></p>
+                                    <p class="dropdown-content__subtitle">1 x £29.00</p>
+                                </div>
+                            </div>
+                            <md-divider class="dropdown-content__divider"></md-divider>
+                            <div layout="row" layout-align="start">
+                                <div class="dropdown-content__block" layout="row" layout-align="space-between center">
+                                    <div class="dropdown-content__title">Subtotal:</div>
+                                    <div class="dropdown-content__sum">£259.00</div>
+                                </div>
+                            </div>
+                            <div layout="row" layout-align="start">
+                                <div class="dropdown-content__block buttons" layout="row" layout-align="space-between center">
+                                    <div class="dropdown-content__checkout button">checkout</div>
+                                    <div class="dropdown-content__cart button">view cart</div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="social__icon-one fa-2x">
                         <i ng-click="vm.openNav()" class="fas fa-bars"></i>
@@ -85,7 +124,5 @@
         <div class="searchBlock">
          <input type="text" placeholder="Search">
         </div>
-
-
     </div>
 </div>

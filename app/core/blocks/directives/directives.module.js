@@ -2,6 +2,7 @@
     'use strict';
 
     angular.module('app.directives', [
-        'directives.fdnHeader'
+        'directives.fdnHeader',
+        'directives.fdnFooter'
     ]);
 })();
