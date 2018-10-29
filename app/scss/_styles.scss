@@ -38,6 +38,15 @@ html, body {
 .mt-10{
   margin-top: 10px;
 }
+.mt-20{
+  margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40{
+  margin-top: 40px;
+}
 .main-title {
   font-size: 20px;
   color: $font-color-dark;
@@ -100,13 +109,24 @@ html, body {
   padding: 30px;
   background-color: $blocks-color-base;
   position: absolute;
-  z-index: 999;
+  z-index: 2;
 }
 .block-dark {
   height: 293px;
   width: 293px;
   padding: 30px;
   background-color: $blocks-color-base-second;
+}
+.block-dark__image {
+  height: 293px;
+  width: 293px;
+  text-align: center;
+  //padding: 30px;
+  background-color: $blocks-color-base-second;
+}
+.blocks-images {
+  height: 293px;
+  width: 293px;
 }
 .block-light-medium {
   height: 293px;
