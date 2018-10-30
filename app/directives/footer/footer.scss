@@ -22,4 +22,24 @@
     cursor: pointer;
     margin-right: 20px;
   }
+  @media (max-width: 540px) {
+    .footer__space{
+      padding: 5px 0 0 0;
+    }
+    .footer__content {
+      color: $font-color-light;
+      font-size: 8px;
+      font-weight: 600;
+      font-family: Montserrat;
+    }
+    .footer__content__link {
+      text-decoration: underline;
+      color: $blocks-color-blue;
+      cursor: pointer;
+    }
+    .footer__content__links{
+      cursor: pointer;
+      margin-right: 5px;
+    }
+  }
 }

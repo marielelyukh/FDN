@@ -4,9 +4,10 @@
     margin: auto;
   }
   .info-block__main {
-    background-color: $blocks-color-base-second;
+    //background-color: $blocks-color-base-second;
     width: 879px;
     height: 826px;
+    float: right;
   }
   .info-block__space-main {
     height: 240px;
@@ -26,15 +27,6 @@
     width: 586px;
     float: left;
   }
-  .info-block__button {
-    background-color: $font-color-dark;
-    color: $blocks-color-base;
-    margin: 30px 0 0 0;
-  }
-  .info-block__button:hover,
-  .info-block__button:focus {
-    box-shadow: inset 3.5em 3.5em 0 0 $font-color-light;
-  }
   .info-block__video-body {
     background-color: $blocks-color-blue;
     height: 293px;
@@ -46,56 +38,56 @@
     height: 293px;
     background-color: $blocks-color-base;
   }
+  .slider__slider__body{
+    width: 293px;
+    height: 293px;
+    background-color: $blocks-color-base;
 
-  .content__news-text {
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Montserrat;
-    color: #76C4F4;
-    margin-top: 30px;
-  }
-  .content__news-title {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: Montserrat;
-    color: #ffffff;
-    margin-top: 10px;
-  }
-  .content__input {
-    input {
-      height: 50px;
-      margin-top: 30px;
-      width: 100%;
-    }
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-      color: $blocks-color-blue;
-    }
-    ::-moz-placeholder { /* Firefox 19+ */
-      color: $blocks-color-blue;
-    }
-    :-ms-input-placeholder { /* IE 10+ */
-      color: $blocks-color-blue;
-    }
-    :-moz-placeholder { /* Firefox 18- */
-      color: $blocks-color-blue;
-    }
-  }
-  .content__sign-up {
-    color: $blocks-color-base;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 30px;
-    cursor: pointer;
   }
   .slider {
-
+    //position: relative;
     img {
       position: relative;
       width: 100%;
       height: 100%;
-      z-index: -1;
-      opacity: .99;
+      z-index: 1;
     }
+  }
+  .slider_header {
+    //position: relative;
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      //z-index: 1;
+    }
+  }
+  .exp-test{
+    //width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  }
+  .main__header-block{
+    background-image: url(../../content/img/back-big2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1254px !important;
+    height: 826px;
+
+    //margin-left: 374px;
+  }
+  .slider__header-block{
+    height: 826px;
+    width: 666px;
+    background-color: $blocks-color-base-dark;
+
+  }
+
+  @media (max-width: 540px) {
+
   }
 }
