@@ -31,6 +31,10 @@ html, body {
   padding: 0 !important;
   overflow: auto;
 }
+//.header__body {
+//  width: 1172px;
+//  margin: auto;
+//}
 .content{
   width: 1172px;
   margin: 0 auto;
@@ -72,6 +76,12 @@ html, body {
   font-size: 14px;
   font-weight: 700;
 }
+.number-square__light-text{
+  color: $font-color-light;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
 .button {
   font-family: Montserrat;
   border: none;
@@ -108,9 +118,13 @@ html, body {
   width: 293px;
   padding: 30px;
   background-color: $blocks-color-base;
+  //position: absolute;
+  z-index: 9999999;
   position: absolute;
-  z-index: 2;
+  bottom: 0;
+  right: 0;
 }
+
 .block-dark {
   height: 293px;
   width: 293px;
@@ -149,6 +163,7 @@ html, body {
 .block-dark-xl{
   height: 586px;
   width: 586px;
+  position: relative;
   //padding: 30px;
   background-color: $blocks-color-base-second;
 }
@@ -373,6 +388,33 @@ html, body {
 .info-block__button:focus {
   box-shadow: inset 3.5em 3.5em 0 0 $font-color-light;
 }
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.top-content__logo {
+  background-image: url(../../content/img/back-big.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1254px !important;
+  height: 348px;
+}
+.top-content__slider {
+  width: 666px;
+  height: 348px;
+  margin: auto;
+  background-color: $blocks-color-base-dark;
+}
+.top-content__logo-space {
+  width: 879px;
+  height: 348px;
+  margin: auto;
+  float: right;
+  //background-color: $blocks-color-base-second;
+}
 
 //--------MEDIA---------
 
@@ -380,6 +422,26 @@ html, body {
   .content{
     width: 310px;
     margin: 0 auto;
+  }
+  .top-content__logo {
+    background-image: url(../../content/img/back-big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 232.5px !important;
+    height: 100px;
+  }
+  .top-content__slider {
+    width: 666px;
+    height: 100px;
+    margin: auto;
+    background-color: $blocks-color-base-dark;
+  }
+  .top-content__logo-space {
+    width: 879px;
+    height: 100px;
+    margin: auto;
+    float: right;
+    //background-color: $blocks-color-base-second;
   }
   .button {
     font-family: Montserrat;
@@ -488,6 +550,12 @@ html, body {
     font-size: 5px;
     font-weight: 400;
     display: none;
+  }
+  .number-square__light-text{
+    color: $font-color-light;
+    font-family: Montserrat;
+    font-size: 6px;
+    font-weight: 700;
   }
   .image-content img{
     width: 40px;

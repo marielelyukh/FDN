@@ -22,13 +22,6 @@
             $('.slick-next').hide();
 
         });
-        $('#slider').on('afterChange', function(){
-            console.log($('#slider').slick('slickCurrentSlide'));
-            var currentSlide = $('#slider').slick('slickCurrentSlide');
-            $('.slick-prev').hide();
-            $('.slick-next').hide();
-
-        });
 
         $(document).ready(function(){
             var currentSlide = $('#slider').slick('slickCurrentSlide');

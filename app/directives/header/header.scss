@@ -1,4 +1,5 @@
 .header {
+
   position: absolute;
   top: 0;
   width: 100%;
@@ -174,14 +175,14 @@
   }
   //ACCORDION ENDS------
 
-  .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
+  //.dropbtn {
+  //  background-color: #4CAF50;
+  //  color: white;
+  //  padding: 16px;
+  //  font-size: 16px;
+  //  border: none;
+  //  cursor: pointer;
+  //}
 
   .dropdown {
     position: relative;
@@ -261,5 +262,113 @@
   }
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+  }
+  @media (max-width: 540px) {
+    .header__body {
+      width: 310px;
+      margin: auto;
+    }
+    .logo {
+      //background-color: $blocks-color-base-second;
+      width: 232.5px;
+      //height: 240px;
+    }
+    .logo__img {
+      padding: 10px 0 0 0;
+      width: 30px;
+    }
+    .social {
+      //background-color: $blocks-color-base-dark;
+      width: 90px;
+      //height: 240px;
+    }
+    .social__icons {
+      float: right;
+      margin-top: 10px;
+    }
+    .social__icon-one {
+      color: white;
+      padding: 0 0 0 10px;
+
+    }
+    .social__icon-one i {
+      outline: none;
+      border: 0;
+      cursor: pointer;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      padding: 5px;
+      &:before {
+        top: 0;
+        left: 90%;
+        border-bottom: 5px solid $blocks-color-base;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        margin-left: -20px;
+        transform: translateY(-50%);
+      }
+    }
+    .dropdown-content__block {
+      margin-right: 5px;
+      margin-top: 5px;
+    }
+    .dropdown-content .buttons{
+      margin: 5px 0 5px 0;
+    }
+    .dropdown-content__sum {
+      color: $font-color-dark;
+      font-family: Montserrat;
+      font-size: 10px;
+      font-weight: 500;
+      margin-left: 5px;
+    }
+    .dropdown-content__block .count {
+      color: lightgrey;
+    }
+    .dropdown-content__title {
+      color: $font-color-light;
+      font-size: 8px;
+      font-family: Montserrat;
+      font-weight: 400;
+      cursor: pointer;
+    }
+    .dropdown-content__subtitle {
+      color: $font-color-dark;
+      font-size: 6px;
+      font-family: Montserrat;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .dropdown-content__checkout{
+      background-color: $blocks-color-yellow;
+      color: $font-color-dark;
+    }
+    .dropdown-content__cart{
+      color: $blocks-color-blue;
+      font-size: 6px !important;
+      font-weight: 500;
+      padding: 3px 5px;
+    }
+    .dropdown-content__divider {
+      margin: 5px 0 5px 0;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
   }
 }
