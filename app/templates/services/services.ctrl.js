@@ -6,6 +6,5 @@
     /* @ngInject */
     function ServiceCtrl() {
         var vm = this;
-        console.log('kek')
     }
 })();

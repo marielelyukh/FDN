@@ -1,8 +1,12 @@
 .header {
-
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
+  //background-color:rgba(0,0,0,0.7);
+  //-webkit-transition:background-color .4s;
+  //-moz-transition:background-color .4s;
+  //transition:background-color .4s;
+
   //opacity: 0.5;
   .header__body {
     width: 1172px;
@@ -156,7 +160,7 @@
     cursor: pointer;
     display: none;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.8s ease-out;
   }
   .sidenav__item-small .small-item {
     margin: 20px 0 0px 20px;
@@ -174,16 +178,6 @@
     }
   }
   //ACCORDION ENDS------
-
-  //.dropbtn {
-  //  background-color: #4CAF50;
-  //  color: white;
-  //  padding: 16px;
-  //  font-size: 16px;
-  //  border: none;
-  //  cursor: pointer;
-  //}
-
   .dropdown {
     position: relative;
     display: inline-block;
@@ -371,4 +365,12 @@
       background-color: #3e8e41;
     }
   }
+}
+.header.active {
+  background: #fff;
+  opacity: 0.5;
+  color: red;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }

@@ -44,6 +44,11 @@
     background-color: $blocks-color-base;
 
   }
+  .slick-slide{
+    //margin-top:10px;
+    position:relative;
+    z-index: 1;
+  }
   .slider {
     z-index: 0;
     img {
@@ -103,36 +108,36 @@
       background-size: cover;
       background-repeat: no-repeat;
       width: 230px !important;
-      height: 205px;
+      height: 195px;
     }
     .slider__header-block{
-      height: 205px;
+      height: 195px;
       width: 181.5px;
       background-color: $blocks-color-base-dark;
     }
     .info-block__main {
       //background-color: $blocks-color-base-second;
       width: 879px;
-      height: 205px;
+      height: 195px;
       float: right;
     }
     .info-block__space-main {
-      height: 50px;
+      height: 40px;
     }
     .info-block__slider {
       background-color: $blocks-color-base-dark;
       width: 77.5px;
-      height: 205px;
+      height: 195px;
     }
     .info-block__space-slider {
-      height: 50px;
+      height: 40px;
     }
     .info-block__around-us-body {
       background-color: $blocks-color-yellow;
       padding: 5px;
       height: 77.5px;
       width: 175px;
-      float: right;
+      float: left;
     }
     .info-block__video-body {
       background-color: $blocks-color-blue;

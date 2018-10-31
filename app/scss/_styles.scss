@@ -118,9 +118,8 @@ html, body {
   width: 293px;
   padding: 30px;
   background-color: $blocks-color-base;
-  //position: absolute;
-  z-index: 9999999;
   position: absolute;
+  z-index: 1;
   bottom: 0;
   right: 0;
 }
@@ -311,6 +310,17 @@ html, body {
 .slider-content{
   height: 100%;
 }
+.nn2{
+  height: 30px !important;
+  width: 30px !important;
+  display: inline-block !important;
+}
+.pp2{
+  height: 30px !important;
+  width: 30px !important;
+  display: inline-block !important;
+
+}
 .counter{
   margin: 40px 0 40px 0;
 }
@@ -332,11 +342,17 @@ html, body {
 }
 .chevron{
   cursor: pointer;
+  margin-top: 30px;
 }
 .search-info {
   width: 586px;
   background-color: $blocks-color-base-dark;
   height: 293px;
+  img{
+    height: 293px;
+    width: 586px;
+    opacity: 0.5;
+  }
 }
 .content__news-text {
   font-size: 16px;
@@ -640,6 +656,10 @@ html, body {
     width: 155px;
     background-color: $blocks-color-base-dark;
     height: 77.5px;
+    img{
+      height: 77.5px;
+      width: 155px;
+    }
   }
   .top-arrow{
     position: relative;
@@ -764,7 +784,7 @@ html, body {
     }
   }
   .counter{
-    margin: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
   }
   .big-number{
     display: block;
@@ -783,6 +803,19 @@ html, body {
     font-size: 6px;
   }
 
+}
+.test-variant__counter{
+  text-align: center;
+  color: black;
+  z-index: 99999;
+  position: absolute;
+  background-color: white;
+  height: 293px;
+  width: 293px;
+  bottom: 3px;
+  right: 0;
+  padding: 30px;
+  margin: auto;
 }
 
 //--------MEDIA ENDS---------
