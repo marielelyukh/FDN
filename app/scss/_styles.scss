@@ -433,7 +433,12 @@ html, body {
 }
 
 //--------MEDIA---------
-
+@media (max-width: 1366px){
+  .top-content__logo-space {
+    //background-color: $blocks-color-base-second;
+    margin-left: 89px;
+  }
+}
 @media (max-width: 540px) {
   .content{
     width: 310px;

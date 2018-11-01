@@ -91,6 +91,13 @@
     background-color: $blocks-color-base-dark;
   }
 
+  @media (max-width: 1366px){
+    .info-block__main {
+      //background-color: $blocks-color-base-second;
+     margin-left: 89px;
+    }
+  }
+
   @media (max-width: 540px) {
     .slider{
 
