@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  transition: all 1s ease-in-out;
   //background-color:rgba(0,0,0,0.7);
   //-webkit-transition:background-color .4s;
   //-moz-transition:background-color .4s;
@@ -186,18 +187,30 @@
   .dropdown-content {
     display: none;
     position: absolute;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    //-moz-background-clip: content;     /* Firefox 3.6 */
+    //-webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+    //background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
     right: 0;
     background-color: #f9f9f9;
     min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 99999999;
     padding: 20px;
     &:before {
-      top: 0;
-      left: 90%;
+      top: -4px;
+      left: 100%;
       border-bottom: 10px solid $blocks-color-base;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
       content: " ";
       height: 0;
       width: 0;
